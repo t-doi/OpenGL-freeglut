@@ -1,0 +1,88 @@
+# depslib dependency file v1.0
+1264406758 source:c:\work\src\win_program\111206opengl_codeblocks-freeglut\ogl2d.cpp
+	<GL/gl.h>
+	<math.h>
+	"OGL2D.h"
+
+1264406670 c:\work\src\win_program\111206opengl_codeblocks-freeglut\ogl2d.h
+
+1321176873 source:c:\work\src\win_program\111206opengl_codeblocks-freeglut\mouse_view.cpp
+	<math.h>
+	"mouse_view.h"
+
+1264394738 c:\work\src\win_program\111206opengl_codeblocks-freeglut\mouse_view.h
+
+1080552648 source:c:\work\src\win_program\111206opengl_codeblocks-freeglut\ogl.cpp
+	<GL/gl.h>
+	<GL/glu.h>
+	<GL/glut.h>
+	<math.h>
+	"OGL.h"
+
+1066711260 c:\work\src\win_program\111206opengl_codeblocks-freeglut\\gl\glut.h
+	"freeglut_std.h"
+
+1260880620 c:\work\src\win_program\111206opengl_codeblocks-freeglut\\gl\freeglut_std.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1170674436 c:\work\src\win_program\111206opengl_codeblocks-freeglut\ogl.h
+	<windows.h>
+
+1408606093 source:c:\users\d\desktop\opengl-freeglut\glut_test.cpp
+	"vcsetting.h"
+	<windows.h>
+	<stdio.h>
+	<math.h>
+	<GL/gl.h>
+	"GL/freeglut.h"
+	"mouse_view.h"
+	"OGL.h"
+	"OGL2D.h"
+
+1408606386 c:\users\d\desktop\opengl-freeglut\vcsetting.h
+	<windows.h>
+
+1066711260 c:\users\d\desktop\opengl-freeglut\gl\freeglut.h
+	"freeglut_std.h"
+	"freeglut_ext.h"
+
+1260880620 c:\users\d\desktop\opengl-freeglut\gl\freeglut_std.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1249904340 c:\users\d\desktop\opengl-freeglut\gl\freeglut_ext.h
+
+1264394738 c:\users\d\desktop\opengl-freeglut\mouse_view.h
+
+1170674436 c:\users\d\desktop\opengl-freeglut\ogl.h
+	<windows.h>
+
+1264406670 c:\users\d\desktop\opengl-freeglut\ogl2d.h
+
+1408605739 source:c:\users\d\desktop\opengl-freeglut\mouse_view.cpp
+	"vcsetting.h"
+	<math.h>
+	"mouse_view.h"
+
+1408605967 source:c:\users\d\desktop\opengl-freeglut\ogl.cpp
+	"vcsetting.h"
+	<GL/gl.h>
+	<GL/glu.h>
+	"GL/glut.h"
+	<math.h>
+	"OGL.h"
+
+1066711260 c:\users\d\desktop\opengl-freeglut\gl\glut.h
+	"freeglut_std.h"
+
+1408605584 source:c:\users\d\desktop\opengl-freeglut\ogl2d.cpp
+	"vcsetting.h"
+	<GL/gl.h>
+	<math.h>
+	"OGL2D.h"
+
