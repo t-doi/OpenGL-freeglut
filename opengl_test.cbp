@@ -36,14 +36,14 @@
 		<Linker>
 			<Add library="libopengl32" />
 			<Add library="libglu32" />
-			<Add library="lib/libfreeglut_static.a" />
-			<Add library="lib/libfreeglut.a" />
+			<Add library="lib\libfreeglut_static.a" />
+			<Add library="lib\libfreeglut.a" />
 			<Add directory="./" />
 		</Linker>
-		<Unit filename="OGL.cpp" />
-		<Unit filename="OGL.h" />
 		<Unit filename="OGL2D.cpp" />
 		<Unit filename="OGL2D.h" />
+		<Unit filename="gl_tools.cpp" />
+		<Unit filename="gl_tools.h" />
 		<Unit filename="glut_test.cpp" />
 		<Unit filename="mouse_view.cpp" />
 		<Unit filename="mouse_view.h" />

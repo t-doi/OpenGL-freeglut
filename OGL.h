@@ -1,8 +1,8 @@
 //---------------------------------------------------------------------------
 //OpenGLによる描画
 //00801doi
-//040216 modified
-#ifndef OGLH
+//160805 modified
+#ifndef OGLH		//多重を防ぐ
 #define OGLH
 
 #define WIN32 1
@@ -42,6 +42,7 @@ public:
     void set_light(void);
     void coordinate(int size);//x,y,zの順にRGBの色で座標系を表示
     void set_background(char IsWhite);//
+	void Arrow(double size, double x0, double y0, double z0, double x1, double y1, double z1);//矢印．頭のサイズ，始点，終点
 };
 //---------------------------------------------------------------------------
 #endif

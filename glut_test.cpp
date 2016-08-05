@@ -16,11 +16,11 @@ extern "C"
 
 
 #include "mouse_view.h"
-#include "OGL.h"
 #include "OGL2D.h"
+#include "gl_tools.h"
 
 
-OGL ogl1;//OpenGL応用ライブラリ
+//OGL ogl1;//OpenGL応用ライブラリ
 MouseView mv1;//マウスモーション管理クラス
 int W_Height=500;//ウインドウ高さ.描画で使う。
 int W_Width=500;//ウインドウ幅.描画で使う。
@@ -72,25 +72,25 @@ void disp( void ) //描画
 //視点の決定
 double wh_ratio;//　w/hの比
 wh_ratio=(double)W_Width/(double)W_Height;
-ogl1.set_viewpoint(mv1.distance,mv1.azimuth,mv1.elevation,
+GL_set_viewpoint(mv1.distance,mv1.azimuth,mv1.elevation,
   mv1.v_center[0], mv1.v_center[1], mv1.v_center[2], wh_ratio);
 
     disp_overlay();//二次元描画．三次元描画に重ねる形
-    ogl1.set_light();//照明セット
+    GL_set_light();//照明セット
 
 //何か物体を描画したいときにはここにモデルを追加する------
 
 glLineWidth(3);//線の太さ決定
-ogl1.coordinate(5);//座標軸描画
+GL_Coordinate(5);//座標軸描画
 
-ogl1.Blue();//色青に決定
-ogl1.Box(0,1,-1,1,-0.5,0.5);//箱描画
+GL_Blue();//色青に決定
+GL_Box(0,1,-1,1,-0.5,0.5);//箱描画
 
 
 //三次元描画ここまで---------------------------
 
 
-  glFlush();
+  //glFlush();
   glutSwapBuffers();
 }
 //-----------------------
